@@ -4,22 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Crystal Collector Game</title>
+
 </head>
 
 <body>
     <h1>Crystal Collector</h1>
     <h2 id="randomNumber"></h2>
+    <h2 id="number"></h2>
     <p id="wins">Wins: </p>
     <p id="losses">Losses: </p>
 
-    <button type="button"><img src="assets/images/Pink_Crystal.png" width="80"></button>
-    <button type="button"><img src="assets/images/Purple_Crystal.png" width="80"></button>
-    <button type="button"><img src="assets/images/Blue_Crystal.png" width="80"></button>
-    <button type="button"><img src="assets/images/Green_Crystal.png" width="80"></button>
+    <button class="crystalButton" type="button"><img src="./assets/images/Pink_Crystal.png" width="80"></button>
+    <button class="crystalButton" type="button"><img src="./assets/images/Purple_Crystal.png" width="80"></button>
+    <button class="crystalButton" type="button"><img src="./assets/images/Blue_Crystal.png" width="80"></button>
+    <button class="crystalButton" type="button"><img src="./assets/images/Green_Crystal.png" width="80"></button>
 
     <p>Your total score is: </p>
     <p id="score"> </p>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
 </body>
 
 </html>
