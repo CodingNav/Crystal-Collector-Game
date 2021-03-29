@@ -4,24 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Crystal Collector Game</title>
-
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
-    <h1>Crystal Collector</h1>
-    <h2 id="randomNumber"></h2>
-    <p id="winMessage"></p>
-    <p id="lossMessage"></p>
-    <p>Wins: <span id="wins"></span></p>
-    <p>Losses: <span id="losses"></span></p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+            <h1>Crystal Collector</h1>
+            <h2 id="randomNumber"></h2>
+            <p id="winMessage"></p>
+            <p id="lossMessage"></p>
+            <p>Wins: <span id="wins"></span></p>
+            <p>Losses: <span id="losses"></span></p>
+        </div>
+        <div class="col"></div>
+        </div>
 
-    <button class="crystalButton" type="button"><img src="./assets/images/Pink_Crystal.png" width="80"></button>
-    <button class="crystalButton" type="button"><img src="./assets/images/Purple_Crystal.png" width="80"></button>
-    <button class="crystalButton" type="button"><img src="./assets/images/Blue_Crystal.png" width="80"></button>
-    <button class="crystalButton" type="button"><img src="./assets/images/Green_Crystal.png" width="80"></button>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+            <button class="crystalButton" type="button"><img src="./assets/images/Pink_Crystal.png" width="80"></button>
+            <button class="crystalButton" type="button"><img src="./assets/images/Purple_Crystal.png"
+                    width="80"></button>
+            <button class="crystalButton" type="button"><img src="./assets/images/Blue_Crystal.png" width="80"></button>
+            <button class="crystalButton" type="button"><img src="./assets/images/Green_Crystal.png"
+                    width="80"></button>
+                </div>
+                <div class="col"></div>
+        </div>
 
-    <p>Your total score is: </p>
-    <p id="score"> </p>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+            <p>Your total score is: </p>
+            <p id="score"> </p>
+        </div>
+        <div class="col"></div>
+        </div>
+    </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./assets/javascript/game.js"></script>
