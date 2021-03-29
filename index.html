@@ -11,40 +11,44 @@
 </head>
 
 <body>
+    <div id="logo">
+    <img src="./assets/images/logo.png" width="1000">
+</div>
     <div class="container-fluid">
         <div class="row">
             <div class="col"></div>
             <div class="col">
-            <h1>Crystal Collector</h1>
-            <h2 id="randomNumber"></h2>
-            <p id="winMessage"></p>
-            <p id="lossMessage"></p>
-            <p>Wins: <span id="wins"></span></p>
-            <p>Losses: <span id="losses"></span></p>
+                <h2 id="randomNumber"></h2>
+                <p id="winMessage"></p>
+                <p id="lossMessage"></p>
+                <p>Wins: <span id="wins"></span></p>
+                <p>Losses: <span id="losses"></span></p>
+            </div>
+            <div class="col"></div>
         </div>
-        <div class="col"></div>
+
+        <div class="row">
+            <div class="col"></div>
+            <div class="col text-center">
+                <button class="crystalButton" type="button"><img src="./assets/images/Pink_Crystal.png"
+                        width="80"></button>
+                <button class="crystalButton" type="button"><img src="./assets/images/Purple_Crystal.png"
+                        width="80"></button>
+                <button class="crystalButton" type="button"><img src="./assets/images/Blue_Crystal.png"
+                        width="80"></button>
+                <button class="crystalButton" type="button"><img src="./assets/images/Green_Crystal.png"
+                        width="80"></button>
+            </div>
+            <div class="col"></div>
         </div>
 
         <div class="row">
             <div class="col"></div>
             <div class="col">
-            <button class="crystalButton" type="button"><img src="./assets/images/Pink_Crystal.png" width="80"></button>
-            <button class="crystalButton" type="button"><img src="./assets/images/Purple_Crystal.png"
-                    width="80"></button>
-            <button class="crystalButton" type="button"><img src="./assets/images/Blue_Crystal.png" width="80"></button>
-            <button class="crystalButton" type="button"><img src="./assets/images/Green_Crystal.png"
-                    width="80"></button>
-                </div>
-                <div class="col"></div>
-        </div>
-
-        <div class="row">
+                <p>Your total score is: </p>
+                <p id="score"> </p>
+            </div>
             <div class="col"></div>
-            <div class="col">
-            <p>Your total score is: </p>
-            <p id="score"> </p>
-        </div>
-        <div class="col"></div>
         </div>
     </div>
     </div>

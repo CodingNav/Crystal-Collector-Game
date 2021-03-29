@@ -1,16 +1,37 @@
 body {
     background-color: #00004d; 
+    margin-top: 100px;
 }
 
-h1 {
-    color: white;
-    text-align: center;
+#logo {
+text-align: center;
 }
 
 h2 {
     color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
 }
 p {
     color: white;
 }
 
+.crystalButton {
+    background: none;
+    border: none;
+    filter: drop-shadow(2px 4px 6px black);
+ 
+}
+
+.crystalButton:hover {
+    filter: brightness(1.8) drop-shadow(2px 4px 6px black);
+  }
+
+  .crystalButton:focus {
+    outline: none;
+  }
+
+.row {
+    margin-top: 50px;
+}
