@@ -2,16 +2,20 @@ body {
     background-color: #00004d;
     margin-top: 60px;
     font-family: 'Oswald', sans-serif;
+    font-weight: 300;
     letter-spacing: 2px;
 }
 
 #logo {
     text-align: center;
-   
 }
 
 #logo img {
-    max-width: 90%; 
+    max-width: 90%;
+}
+
+.font-400 {
+    font-weight: 400;
 }
 
 .scoreHolder {
@@ -54,6 +58,7 @@ p {
 .row {
     margin-top: 50px;
 }
+
 
 #scoreboard {
     margin: auto;

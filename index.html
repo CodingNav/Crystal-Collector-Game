@@ -7,8 +7,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
@@ -17,19 +17,26 @@
         <img src="./assets/images/logo.png" width="1000">
     </div>
     <div class="container-fluid">
+
         <div class="row">
             <div class="col"></div>
-            <div class="col text-center"> 
+            <div class="col text-center">
+
                 <div id="gameScore">
+                    <div id="messages">
+                        <p id="winMessage"></p>
+                        <p id="lossMessage"></p>
+                    </div>
                     <div class="scoreHolder">
-                <p>TARGET</p>
-                <p class="scoreSize" id="randomNumber"></p>
-            </div>
-            <div class="scoreHolder">
-                    <p>TOTAL SCORE</p>
-                    <p class="scoreSize" id="score"> 0 </p>
-            </div>
+                        <p class="font-400">TARGET</p>
+                        <p class="scoreSize" id="randomNumber"></p>
+                    </div>
+                    <div class="scoreHolder">
+                        <p class="font-400">TOTAL SCORE</p>
+                        <p class="scoreSize" id="score"> 0 </p>
+                    </div>
                 </div>
+
             </div>
             <div class="col"></div>
         </div>
@@ -52,8 +59,6 @@
         <div class="row">
             <div class="col"></div>
             <div class="col text-center">
-                <p id="winMessage"></p>
-                <p id="lossMessage"></p>
                 <div id="scoreboard">
                     <p>Wins: <span id="wins"></span></p>
                     <p>Losses: <span id="losses"></span></p>
