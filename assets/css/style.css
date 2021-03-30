@@ -1,37 +1,64 @@
 body {
-    background-color: #00004d; 
-    margin-top: 100px;
+    background-color: #00004d;
+    margin-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
 }
 
 #logo {
-text-align: center;
+    text-align: center;
+   
 }
 
-h2 {
-    color: white;
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
+#logo img {
+    max-width: 90%; 
 }
+
+.scoreHolder {
+    text-align: center;
+    width: 48%;
+    display: inline-block;
+}
+
+.scoreSize {
+    font-size: 50px;
+}
+
 p {
     color: white;
+    font-size: 20px;
+}
+
+#gameScore {
+    margin: auto;
+    width: 80%;
+    padding-top: 20px;
+    border: 3px solid #e8e8e8;
+    background-color: #00b2ff;
 }
 
 .crystalButton {
     background: none;
     border: none;
     filter: drop-shadow(2px 4px 6px black);
- 
 }
 
 .crystalButton:hover {
     filter: brightness(1.8) drop-shadow(2px 4px 6px black);
-  }
+}
 
-  .crystalButton:focus {
+.crystalButton:focus {
     outline: none;
-  }
+}
 
 .row {
     margin-top: 50px;
+}
+
+#scoreboard {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid #e8e8e8;
+    background-color: #7d6eff;
 }
