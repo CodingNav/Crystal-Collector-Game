@@ -14,9 +14,7 @@ body {
 
 #logo img {
     max-width: 90%;
-    filter: hue-rotate(138deg) 
-    drop-shadow(2px 4px 3px #ffffff21) drop-shadow(-2px 4px 3px #ffffff21) 
-    drop-shadow(2px -4px 3px #ffffff21) drop-shadow(-2px -4px 3px #ffffff21);
+    filter: hue-rotate(138deg) drop-shadow(2px 4px 3px #ffffff21) drop-shadow(-2px 4px 3px #ffffff21) drop-shadow(2px -4px 3px #ffffff21) drop-shadow(-2px -4px 3px #ffffff21);
 }
 
 .font-400 {
@@ -89,12 +87,22 @@ body {
 }
 
 .popover {
-    color: black;
+    /* color: rgb(61, 7, 34); */
     background-color: #ffe2fe;
+}
+
+.popover-body {
+    color: rgb(134 14 74);
 }
 
 .popover-header {
     color: white;
+    font-weight: bold;
+    font-size: 20px;
     background-color: #7d6eff;
     border-bottom: 1px solid #432efa;
+}
+
+ol, ul {
+    list-style: square;
 }

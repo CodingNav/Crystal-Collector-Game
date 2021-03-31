@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    
+
     var number = 0;
     var wins = 0;
     var losses = 0;
@@ -44,8 +44,8 @@ $(document).ready(function () {
 
     });
 
-   $('[data-bs-toggle="popover"]').popover({
-    // trigger: 'focus'
-  })
-
+    $('[data-bs-toggle="popover"]').popover({
+        trigger: 'focus',
+        html: true
+    })
 })
