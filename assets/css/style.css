@@ -41,6 +41,15 @@ body {
     border: 2px solid #e8e8e8;
     background-image: linear-gradient(#7d6eff 60%, #b4acff);
     box-shadow: 5px 5px 8px #00000052, -5px 5px 8px #00000052, 5px -5px 8px #00000052, -5px -5px 8px #00000052;
+    position: relative;
+}
+
+#help {
+    position: absolute;
+    right: 7px;
+    bottom: 2px;
+    font-size: 50px;
+    color: #827ea3;
 }
 
 #winMessage {
@@ -77,4 +86,15 @@ body {
     border: 2px solid #e8e8e8;
     background-image: linear-gradient(#00b2ff 60%, #72d1fa);
     box-shadow: 5px 5px 8px #00000052, -5px 5px 8px #00000052, 5px -5px 8px #00000052, -5px -5px 8px #00000052;
+}
+
+.popover {
+    color: black;
+    background-color: #ffe2fe;
+}
+
+.popover-header {
+    color: white;
+    background-color: #7d6eff;
+    border-bottom: 1px solid #432efa;
 }
