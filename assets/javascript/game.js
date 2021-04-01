@@ -6,8 +6,7 @@ $(document).ready(function () {
     var randomNumber = Math.floor(Math.random() * (121 - 19 + 1) + 19);
 
     function startGame() {
-        randomNumber = Math.floor(Math.random() * (121 - 19 + 1) + 19);
-        $("#randomNumber").text(randomNumber);
+        randomNumber = Math.floor(Math.random() * (121 - 19 + 1) + 19); 
 
         $(".crystalButton").each(function () {
             $(this).val(Math.floor(Math.random() * (13 - 1 + 1) + 1));
@@ -24,6 +23,7 @@ $(document).ready(function () {
         if (number == 0) {
             $("#winMessage").text("");
             $("#lossMessage").text("");
+            $("#randomNumber").text(randomNumber);
         }
 
         number = number + parseInt(this.value);
@@ -41,9 +41,9 @@ $(document).ready(function () {
             $("#losses").text(losses);
             startGame();
         }
-
     });
 
+    
     $('[data-bs-toggle="popover"]').popover({
         trigger: 'focus',
         html: true
