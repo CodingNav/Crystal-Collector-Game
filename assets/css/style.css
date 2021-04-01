@@ -43,7 +43,7 @@ body {
 }
 
 #help {
-    position: absolute;
+    position: fixed;
     right: 7px;
     bottom: 2px;
     font-size: 50px;
@@ -62,6 +62,7 @@ body {
     background: none;
     border: none;
     filter: drop-shadow(2px 4px 6px black);
+    width: 90px;
 }
 
 .crystalButton:hover {
@@ -106,3 +107,16 @@ body {
 ol, ul {
     list-style: square;
 }
+
+@media (max-width: 767.98px) { 
+    .crystalButton {
+        width: 60px;
+    }
+ }
+
+
+@media (max-width: 338px) { 
+    .crystalButton {
+        width: 55px;
+    }
+ }

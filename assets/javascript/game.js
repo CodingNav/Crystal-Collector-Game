@@ -45,7 +45,7 @@ $(document).ready(function () {
 
     
     $('[data-bs-toggle="popover"]').popover({
-        trigger: 'focus',
+        trigger: 'click',
         html: true
     })
 })
