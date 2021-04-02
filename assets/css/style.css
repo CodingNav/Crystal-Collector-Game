@@ -108,15 +108,14 @@ ol, ul {
     list-style: square;
 }
 
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
     .crystalButton {
         width: 60px;
     }
- }
+}
 
-
-@media (max-width: 338px) { 
+@media (max-width: 338px) {
     .crystalButton {
         width: 55px;
     }
- }
+}

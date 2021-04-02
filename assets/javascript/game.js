@@ -6,7 +6,7 @@ $(document).ready(function () {
     var randomNumber = Math.floor(Math.random() * (121 - 19 + 1) + 19);
 
     function startGame() {
-        randomNumber = Math.floor(Math.random() * (121 - 19 + 1) + 19); 
+        randomNumber = Math.floor(Math.random() * (121 - 19 + 1) + 19);
 
         $(".crystalButton").each(function () {
             $(this).val(Math.floor(Math.random() * (13 - 1 + 1) + 1));
@@ -43,7 +43,7 @@ $(document).ready(function () {
         }
     });
 
-    
+
     $('[data-bs-toggle="popover"]').popover({
         trigger: 'click',
         html: true
