@@ -5,6 +5,7 @@
 ## Preview
 
 <img src="./assets/images/game_screenshot.png" alt="Game" width="100%">
+<img src="./assets/images/crystal_collector.gif" alt="Game" width="100%">
 
 
 ## About
